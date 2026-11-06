@@ -1,10 +1,15 @@
-# Group 4: Movie Recommendation System
+<img width="592" height="637" alt="image" src="https://github.com/user-attachments/assets/10520570-1ada-422b-8459-c705503aedeb" /># Group 4: Movie Recommendation System
 
 A movie recommender built on the MovieLens "small" dataset. Given a user's ratings of other movies, it returns **5 movies the user has not seen and is likely to rate highly**.
 
 ## 1. Business Problem
-
-Streaming platforms host thousands of titles, and users struggle to find something worth watching. Poor discovery lowers engagement and increases churn. This project helps a streaming service show each user a short, personalised list of 5 unseen movies.
+### Background
+Streaming platforms offer thousands of titles, but users can only
+browse a small fraction of them. When viewers cannot quickly find
+something they like, they spend less time on the platform, rate fewer
+titles, and are more likely to cancel their subscription. Personalised
+recommendations are one of the main ways platforms reduce this
+discovery problem and keep users engaged.
 
 **How a user provides ratings:** as a Python dictionary of movie title and rating, for example:
 
